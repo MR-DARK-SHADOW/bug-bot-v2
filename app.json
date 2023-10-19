@@ -1,0 +1,23 @@
+{
+  "name": "Queen",
+  "description": " Chat Bot",
+  "repository": "https://github.com/DarkWinzo/Queen-AI",
+  "logo": "https://i.ibb.co/zbMKwKZ/20230425-161348.jpg",
+  "keywords": ["multi-device"],
+  "stack": "container",
+  "addons": [{
+  "plan": "heroku-postgresql"
+    }],
+  
+
+   "buildpacks": [{
+         "url": "heroku/nodejs"
+		},
+	         {
+	"url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
+		},
+                 { 
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+
+	}]
+}
