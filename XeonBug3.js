@@ -2089,117 +2089,24 @@ break
             case 'alive':
             case '?':
                 let mono = '```'
-                let xeonmenuoh = `${mono}Hello ${pushname}
-╰┈➤ ${xeonytimewisher} 😄
-${readmore}
-╰┈➤ʙᴜɢ ᴍᴇɴᴜ
-amountbug <amount>
-pmbug <number>
-delaybug <number>
-trollybug <number>
-docubug <number>
-unlimitedbug <number>
-bombug <number>
-lagbug <number>
-gcbug <grouplink>
-delaygcbug <grouplink>
-trollygcbug <grouplink>
-laggcbug <grouplink>
-bomgcbug <grouplink>
-unlimitedgcbug <grouplink>
-docugcbug <grouplink>
-
-╰┈➤ ᴏᴡɴᴇʀ ᴍᴇɴᴜ
-getsession
-deletesession
-join
-shutdown  
-restart
-autoread *[option]*
-autotyping *[option]*
-autorecording *[option]*
-autorecordtyp *[option]*
-autobio *[option]*
-autoswview *[option]*
-mode *[option]*
-block
-unblock 
-backup
-getcase
-addowner
-delowner
-
-╰┈➤ ɢʀᴏᴜᴘ ᴍᴇɴᴜ
-closetime
-opentime
-kick
-add
-promote
-demote
-setdesc
-setppgc
-tagall
-hidetag
-totag
-group *[option]*
-editinfo
-linkgc
-revoke
-listonline
-
-╰┈➤ ᴍᴀɪɴ ᴍᴇɴᴜ
-menu
-buypremium
-runtime
-script
-donate
-owner
-
-╰┈➤ ᴄᴏɴᴠᴇʀᴛ ᴍᴇɴᴜ
-sticker
-qc
-smeme
-take
-toimage
-tovideo
-toaudio
-tomp3
-tovn
-togif
-tourl
-toqr
-toviewonce
-fliptext
-emojimix
-
-╰┈➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
-addvideo
-addimage
-addsticker
-addvn
-addzip
-addapk
-addpdf
-delvideo
-delimage
-delsticker
-delvn
-delzip
-delapk
-delpdf
-listvideo
-listimage
-liststicker
-listvn
-listzip
-listapk
-listpdf
-
-╰┈➤ ᴅᴏᴡɴ ᴍᴇɴᴜ
-play
-ytmp3
-ytmp4
-sound1 - sound161${mono}`
+                let xeonmenuoh = `
+*ᴅᴀʀᴋ ꜱʜᴀᴅᴏᴡ ʙᴜɢ ʙᴏᴛ*
+🚫 |amountbug <amount>
+🚫 |pmbug <number>
+🚫 |delaybug <number>
+🚫 |trollybug <number>
+🚫 |docubug <number>
+🚫 |unlimitedbug <number>
+🚫 |bombug <number>
+🚫 |lagbug <number>
+🚫 |gcbug <grouplink>
+🚫 |delaygcbug <grouplink>
+🚫 |trollygcbug <grouplink>
+🚫 |laggcbug <grouplink>
+🚫 |bomgcbug <grouplink>
+🚫 |unlimitedgcbug <grouplink>
+🚫 |docugcbug <grouplink>
+`
 if (typemenu === 'v1') {
                     XeonBotInc.sendMessage(m.chat, {
                         image: fs.readFileSync('./XeonMedia/thumb.jpg'),
